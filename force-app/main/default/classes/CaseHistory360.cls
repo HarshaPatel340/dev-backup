@@ -20,9 +20,9 @@ public class CaseHistory360 {
     
     public transient Map<Id,KnowledgeArticleVersion> articleMap {get;set;}
     public boolean displayPopup {get; set;}
-    public CaseHistory360(){
+    public CaseHistory360(){//aa\dded
         
-        CHIlist= new List<CaseHistoryItem>();
+        CHIlist= new List<CaseHistoryItem>();//added by ashwith
         caseId = Apexpages.currentPage().getParameters().get('id');
         URLred = URL.getSalesforceBaseUrl().toExternalForm() + Site.getPathPrefix();
 		        
