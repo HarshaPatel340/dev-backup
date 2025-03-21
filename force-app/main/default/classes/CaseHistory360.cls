@@ -22,7 +22,7 @@ public class CaseHistory360 {
     public boolean displayPopup {get; set;}
     public CaseHistory360(){
         
-        CHIlist= new List<CaseHistoryItem>();
+        CHIlist= new List<CaseHistoryItem>();//added by ashwith
         caseId = Apexpages.currentPage().getParameters().get('id');
         URLred = URL.getSalesforceBaseUrl().toExternalForm() + Site.getPathPrefix();
 		        
